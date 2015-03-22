@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
                 x <<- y
                 i <<- NULL
         }
-        # <<- used to assign a value to an object in an environment 
+        # "<<-" is used to assign a value to an object in an environment 
         # that is different from the current environment
         
         get = function() x
